@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2024-05-09T13:55:21.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ztLh4sT8pEJAWq1FsyZk" version="24.0.2" type="device" pages="2">
+  <diagram name="Page-1" id="F0QP4M5NfBzH5v03WoP4">
+    <mxGraphModel dx="1196" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J9fBRL9ISL-uSOft30ES-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J9fBRL9ISL-uSOft30ES-1" target="J9fBRL9ISL-uSOft30ES-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J9fBRL9ISL-uSOft30ES-5" target="J9fBRL9ISL-uSOft30ES-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-5" value="check height every 2 seconds" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="335" y="310" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J9fBRL9ISL-uSOft30ES-7" target="J9fBRL9ISL-uSOft30ES-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-7" value="is capsule at or below 2700m" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="295" y="530" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J9fBRL9ISL-uSOft30ES-12" target="J9fBRL9ISL-uSOft30ES-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-12" value="deploy parachute" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="290" y="760" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="J9fBRL9ISL-uSOft30ES-14" target="J9fBRL9ISL-uSOft30ES-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-14" value="is capsule at or below 0m" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="300" y="920" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-16" value="turn on transponder beacon" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1150" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-29" value="no&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;labelPosition=left;verticalLabelPosition=bottom;align=right;verticalAlign=top;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="610" as="sourcePoint" />
+            <mxPoint x="410" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9fBRL9ISL-uSOft30ES-30" value="no" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1000" as="sourcePoint" />
+            <mxPoint x="420" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lcZW5aVDQxyxPYYXqO4n" name="Page-2">
+    <mxGraphModel dx="1196" dy="619" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
